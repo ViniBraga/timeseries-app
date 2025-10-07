@@ -8,7 +8,6 @@ const UploadProgress = ({ uploadId }: UploadProgressProps) => {
   const { progress, status, error, visible } = useUploadProgress(uploadId);
 
   if (!visible) return null;
-  console.log(progress)
 
   return (
     <div className="mt-4">

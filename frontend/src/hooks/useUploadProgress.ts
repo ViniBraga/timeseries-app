@@ -21,7 +21,6 @@ export const useUploadProgress = (uploadId: string) => {
     const interval = setInterval(async () => {
       try {
         const res = await fileApi.getUploadStatus(uploadId);
-        console.log('res', res)
         setStatus(res.data);
         setProgress(statusToProgress[res.data] ?? 0);
 
