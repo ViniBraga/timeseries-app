@@ -7,7 +7,7 @@ A full-stack application built with **Node.js** (backend) and **React** (fronten
 - Backend: Node.js + Express + Prisma
 - Frontend: React + Vite
 - Database: PostgreSQL
-- Cache: Redis
+- Cache: Redis + BullMQ
 - Containerization: Docker + Docker Compose
 
 ## Quick Start
